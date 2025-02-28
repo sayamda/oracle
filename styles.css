@@ -1,0 +1,82 @@
+body{
+    background-color: #030e20;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    overflow-y: hidden;
+}
+button{
+    background: #0f5bd7 ;
+    border-radius: 10px;
+    border-color: #2e79f1;
+    border-width: 2px;
+    width: 150px;
+    height:46px;
+    transition:all 0.4s ease-in-out;
+    color:white;
+    border-style:solid;
+    align-items: center;
+    justify-items: center;
+    padding:3px;
+    position: relative;
+    bottom:-3px;
+    
+}
+button:hover{
+    background:rgb(46, 15, 201);
+    border-color:rgb(61, 22, 255) ;
+    cursor: pointer;
+    
+}
+#main{
+    position: relative;
+    z-index: 1;
+}
+#type{
+  position: absolute;
+  top:485px; 
+  width:100%;
+}
+#text{
+    width:70%;
+    border-color:#1d2f4d;
+    background-color: #0c1d38;
+    border-width:2px;
+    height:30px;
+    padding:7px 10px;
+    border-radius: 10px;
+    margin-bottom:11px;
+    border-style:solid;
+    margin-left:0;
+    min-width: min-content;
+    color:white;
+    border-style: solid;
+    transition:all 500ms ease-in-out;
+    
+}
+#text:focus{
+border: solid dodgerblue;
+outline: none;
+box-shadow: 0 0 10px dodgerblue;
+}
+#convo{
+    min-height: fit-content;
+    height: 470px;
+    background: #1d2f4d;
+    width:90%;
+    border-radius: 10px;
+    align-items: center;
+    overflow-y:visible;
+}
+#p1{
+    color: rgb(163, 183, 255);
+    align-items: center;
+    padding-left: 500px;
+    padding-top:10px;
+    font-weight: bold;
+    position: absolute;
+    transform:translateY(-50%);
+    transition: left 0.5 ease;
+    display:block;
+    z-index: 3;
+    
+}
